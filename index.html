@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Registro de Despesas</title>
+</head>
+<body>
+    
+    <div class="container">
+        
+
+        <div class="form">
+
+            <form action="#">
+            
+                <div class="form-header">
+
+                    <div class="title">
+                        
+                        <h1>Registro de Despesas</h1>
+
+                    </div>
+
+                </div>
+
+                <div class="input-group">
+                    
+                    <div class="input-box">
+
+                        <input id="description"   type="text" name="descricao" placeholder="Descrição" required>
+                        
+                    </div>
+
+                    <div class="input-box">
+
+                        <input id="value" type="number" name="valor" placeholder="R$" step="0.01" min="0.01" required>
+                        
+                    </div>
+
+                    <div class="input-box">
+
+                        <input id="person" type="text" name="pessoa" placeholder="Pessoa" required>
+                        
+                    </div>
+
+                    <div class="input-box">
+
+                        <input id="date"   type="date" name="data" placeholder="__/__/____" required>
+                        
+                    </div>
+
+                    <div class="input-box">
+
+                        <select name="categoria" id="category" required>
+                            <option selected>Escolha uma Categoria</option>
+                            <option value="alimetacao">ALIMENTAÇÃO</option>
+                            <option value="educacao">EDUCAÇÃO</option>
+                            <option value="hospitalar">HOSPITALAR</option>
+                            <option value="investimento">INVESTIMENTO</option>
+                            <option value="lazer">LAZER</option>
+                            <option value="objetos">OBJETOS</option>
+                            <option value="pessoal">PESSOAL</option>
+                            <option value="transporte">TRANSPORTE</option>
+                                
+                        </select>
+
+                    </div>
+
+                    
+
+                </div>
+
+                <div class="natureza-group">
+
+                    <div class="natureza-title">
+
+                        <h4>Natureza</h4>
+
+                    </div>
+
+                    <div class="natureza-inputs">
+
+                        <div class="natureza-options">
+                            <input id="despesa" type="radio" name="despesa">
+                            <label for="despesa">Despesa</label>
+                        </div>
+
+                        <div class="natureza-options">
+                            <input id="receita" type="radio" name="receita">
+                            <label for="receita">Receita</label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="botao-enviar">
+
+                    <button><a href="#">Enviar</a></button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.container{
+    width: 95%;
+    height: 95vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    background: #DBE3E5;
+
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.form-header{
+
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+
+}
+
+.input-box{
+display: flex;
+flex-direction: column;
+margin-bottom: 1.5rem;
+
+}
+.input-box input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+#category{
+    justify-content: center;
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.title h1{
+
+
+    font-size: 2rem;
+    font-weight: 600;
+    color: #8F8B8B;
+}
+
+.natureza-title h4{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #8F8B8B;
+    justify-content: center;
+}
+
+.natureza-inputs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 8rem;
+
+}
+
+.botao-enviar{
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #465EFC;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+.botao-enviar button:hover{
+
+    background-color: #293B9B;
+
+}
+.botao-enviar button a{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
